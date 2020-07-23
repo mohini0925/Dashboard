@@ -1,0 +1,112 @@
+html,body{
+	height: 100%;
+	width: 100%;
+}
+
+.container-fluid{
+	padding: 20px;
+	background-color: #006d6f;
+}
+.side{
+    background-color: #006d6f;
+
+}
+.col-md-2{
+    background-color: #006d6f;
+    margin-top: 35px;
+	position: sticky;
+	width: 100%;
+    
+	
+}
+
+.sidebar-header{
+	color: white;
+	font-family: Arial;
+	font-size:30px; 
+	text-align: center;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #C0C0C0; 
+}
+.sidebar-item {
+	float: left;
+	overflow: auto;
+	display: block;
+    z-index: 1000;
+    margin-top: 30px;
+   
+}
+.sidebar-item li{
+	color: white;
+	padding-top:18px;
+	padding-bottom: 18px;
+	font-size: 18px;
+	list-style-type:none; 
+	font-family: 'Raleway', sans-serif;
+	width: 100%;
+	
+}
+.sidebar-item a {
+ color: white;
+ text-decoration:none;
+ padding: 10px 50px 10px 30px ;
+
+}
+.sidebar-item a:hover{
+    color: black;
+
+}
+.sidebar-item li:hover{
+	width:200px;
+	background-color: white;
+	border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.sidebar-item i {
+	padding-right: 13px;
+}
+.col-md-10{
+	border-radius: 20px;
+	background-color: white;
+	height: 100vh;
+	padding-left:40px;
+}
+.navbar{
+position: sticky;
+top:0;
+width: 100%;
+
+}
+
+.nav-item{
+	padding: 0px 15px;
+}
+.nav-link{
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: 800px;
+	font-family: "Raleway",sans-serif;
+}
+.active{
+	border-bottom: 2px solid #006d6f;
+}
+
+.nav-item:hover{
+	border-bottom: 2px solid #006d6f;
+}
+
+.navbar-text{
+	font-size: 12px;
+}
+.card{
+	padding: 30px 20px 10px 20px;
+	align-items: center;
+	background-color:#ffc0b4;
+	border-radius:20px;
+	width:100px;
+}
+
+.card-deck{
+	margin-top: 30px;
+}
